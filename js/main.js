@@ -94,14 +94,14 @@ $(document).ready(function ($) {
 				if (navbar.hasClass('scrolled')) {
 					navbar.removeClass('scrolled sleep');
 					logo.removeAttribute('src');
-					logo.setAttribute('src', "/images/logoeliwhite.svg");
+					logo.setAttribute('src', "https://elment9.github.io/Portfolio/images/logoeliwhite.svg");
 				}
 			}
 			if (st > 350) {
 				if (!navbar.hasClass('awake')) {
 					navbar.addClass('awake');
 					logo.removeAttribute('src');
-					logo.setAttribute('src', "/images/logoEli.svg");
+					logo.setAttribute('src', "https://elment9.github.io/Portfolio/images/logoEli.svg");
 				}
 
 				if (sd.length > 0) {
